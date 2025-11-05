@@ -6,5 +6,14 @@
         "installTools": true,
         "version": "3.10"
     }
-  }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
